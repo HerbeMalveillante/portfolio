@@ -4,5 +4,5 @@
 
 
 <main class="min-h-screen bg-white">
-    <p>yoo</p>
+    <p>list of skills right here</p>
 </main>
