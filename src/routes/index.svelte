@@ -28,7 +28,7 @@
                     <h2 class="dark:text-white font-ubuntu md:text-4xl text-2xl">👋 Hello, my name is </h2><p class="ml-2 animate-bounce bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent md:text-4xl text-3xl font-ubuntu">Pacôme</p>
                 </div>
                 <div class="">
-                    <p class="dark:text-white font-mono"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime temporibus nihil eligendi hic repellendus magni blanditiis praesentium molestias, officiis ut eveniet provident iusto sed assumenda quam repellat odio, adipisci harum? </p>
+                    <p class="dark:text-white font-mono"> I am a young developer based in France, interested in fullstack web development. I am currently learning computer science in the french engineering school "Polytech Tours", and developing my personal skills and portfolio during my personal time. I'm available for hire ! Scroll down to learn more about how I can help you. </p>
                 </div>
             </div>
             <img class="md:w-80 md:h-80 w-96 h-96 rounded-full shadow-xl hover:scale-110 transition ease-in-out duration-300 hover:shadow-2xl"  src = "../static/pfp.jpg" alt = "pfp">
