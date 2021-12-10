@@ -100,10 +100,10 @@
         <div class="flex flex-col bg-white dark:bg-gray-800 min-h-screen w-screen justify-center items-center md:space-y-16 space-y-10">
             <h2 class="md:text-9xl text-6xl font-black font-ubuntu bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent p-2">Projects</h2>
             <div class="grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 p-5 w-full">
-                <Project />
-                <Project />
-                <Project />
-                <Project />
+                <Project name="Neon Background" background="https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur vitae voluptates quaerat dolorum explicabo reprehenderit aliquid aliquam nihil id perspiciatis fugit, est soluta aspernatur facere placeat aperiam similique quam recusandae.</Project>
+                <Project name="3D Village" background="https://media.sketchfab.com/models/7c9b7638b74e4708869f048055c10e0f/thumbnails/92e33f5442704ffd886e137f20eb87f9/c22f2c6f552b4c9987e8fb4d9b6ccf36.jpeg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam nam quam ab nobis alias non mollitia hic sit, cum dolore id culpa explicabo? Provident vel rem facere optio voluptatibus sed?</Project>
+                <Project>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nisi quaerat nam voluptate saepe dolor cupiditate voluptas. Impedit, cupiditate magni! Repudiandae, dolor? Id rem exercitationem amet quidem totam magni sunt.</Project>
+                <Project>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus voluptatum facere quisquam libero quas mollitia qui. Obcaecati nulla nostrum eligendi fugit adipisci, iste ut asperiores placeat, velit dicta necessitatibus magni.</Project>
             </div>
         </div>
     </div>
