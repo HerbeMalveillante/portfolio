@@ -21,6 +21,7 @@
   "type": "module",
   "dependencies": {
     "@sveltejs/adapter-vercel": "^1.0.0-next.31",
+    "source-map": "^0.7.3",
     "svelte-add": "^2021.11.2-7.0"
   }
 }
