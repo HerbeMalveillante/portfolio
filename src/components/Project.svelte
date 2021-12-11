@@ -11,8 +11,8 @@
             {#if background}
                 <img class="filter group-hover:blur-sm duration-[0ms]" src={background} alt="background">
             {/if}
-            <h2 class="border border-green-500 absolute font-ubuntu text-xl group-hover:-translate-y-72 transition duration-200">{name}</h2>
-            <p class="p-5 border border-green-500 absolute font-ubuntu text-md group-hover:-translate-y-0 translate-y-72 duration-200"><slot></slot></p>
+            <h2 class="absolute font-ubuntu text-xl group-hover:-translate-y-72 transition duration-200">{name}</h2>
+            <p class="p-5 absolute font-ubuntu text-md group-hover:-translate-y-0 translate-y-72 duration-200"><slot></slot></p>
         </div>
     </div>
 </main>
