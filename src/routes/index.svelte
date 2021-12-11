@@ -1,6 +1,9 @@
 <script>
 
-    import Project from "../components/Project.svelte";
+    import Project from "../components/Project.svelte"; 
+
+
+    let THEME = "dark";
 
     function isOnMobile(){
         return (('ontouchstart' in window) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0));
@@ -25,6 +28,8 @@
             skillDescription.innerHTML = "Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people. I use git and Github to manage all of my open source and private projects.";
         } else if (language == "others"){
             skillDescription.innerHTML = "I also have a lot of other skills with other technologies : HTML, CSS, JavaScript, SQL, Lua, Linux, etc. I worked a lot with Discord, Google and Twitter APIs, allowing me to create automation projects for Discord, YouTube, or virtually any other platform.";
+        } else {
+            console.log("Error: no alt language found");
         }
 
         console.log("hover")
@@ -41,6 +46,11 @@
 
     }
 
+    function forceOpenInNewTab(url){
+        var win = window.open(url, '_blank');
+        win.focus();
+    }
+
     function pass(){
         pass
     }
@@ -49,9 +59,17 @@
         var theme = document.getElementById("theme");
         if (theme.className == "dark"){
             theme.className = "light";
+            THEME = "light";
+
         } else {
             theme.className = "dark";
+            THEME = "dark";
         }
+    }
+
+    function getTheme(){
+        var theme = document.getElementById("theme");
+        return theme.className;
     }
 
 </script>
@@ -126,4 +144,44 @@
             </div>
         </div>
     </div>
+
+    <div class="" id="contact">
+        <div class="flex flex-col bg-white dark:bg-gray-800 min-h-screen w-screen justify-center items-center md:space-y-10 space-y-5 transition-all duration-500">
+            <h2 class="md:text-9xl text-6xl font-black font-ubuntu bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent px-2">Contact</h2>
+            <h3 class="md:text-3xl sm:text-xl text-md font-ubuntu text-gray-800 dark:text-white transition-all duration-500">You can contact me on the following platforms : </h3>
+            <div class="grid lg:grid-cols-2 grid-cols-1">
+                <div class="flex items-center space-x-10 hover:scale-125 transition-all duration-200 mx-10 my-5">
+                    <img class="w-20 h-20" src="/discord.svg" alt="Discord logo">
+                    <h3 class="md:text-2xl text-xl font-ubuntu text-gray-800 dark:text-white transition-all duration-500">HerbeMalveillante#3259</h3>
+                </div>
+                <div on:click={() => forceOpenInNewTab("https://github.com/herbemalveillante/")} class="flex items-center space-x-10 cursor-pointer hover:scale-125 transition-all duration-200 mx-10 my-5">
+                    <img class="w-20 h-20" src={THEME == "dark" ? "/githubWhite.svg" : "/github.svg"} alt="github logo">
+                    <h3 class="md:text-2xl text-xl font-ubuntu text-gray-800 dark:text-white transition-all duration-500">HerbeMalveillante</h3>
+                </div>
+                <div on:click={() => forceOpenInNewTab("https://twitter.com/HerbeMalveilla1")} class="cursor-pointer flex items-center space-x-10 hover:scale-125 transition-all duration-200 mx-10 my-5">
+                    <img class="w-20 h-20" src="/twitter.svg" alt="twitter logo">
+                    <h3 class="md:text-2xl text-xl font-ubuntu text-gray-800 dark:text-white transition-all duration-500">@HerbeMalveilla1</h3>
+                </div>
+                <div on:click={() => forceOpenInNewTab("https://www.linkedin.com/in/pacôme-renimel-46253a226/")} class="cursor-pointer flex items-center space-x-10 hover:scale-125 transition-all duration-200 mx-10 my-5">
+                    <img class="w-20 h-20" src="/linkedin.svg" alt="linkedin logo">
+                    <h3 class="md:text-2xl text-xl font-ubuntu text-gray-800 dark:text-white transition-all duration-500">LinkedIn</h3>
+                </div>
+                <div on:click={() => forceOpenInNewTab("https://www.youtube.com/channel/UC0qAWS1GcM8_cRLoPtLgNHA")} class="cursor-pointer flex items-center space-x-10 hover:scale-125 transition-all duration-200 mx-10 my-5">   
+                    <img class="w-20" src="/youtube.svg" alt="youtube logo">
+                    <h3 class="md:text-2xl text-xl font-ubuntu text-gray-800 dark:text-white transition-all duration-500">Herbe Malveillante</h3>
+                </div>
+            </div>
+            <div class="flex space-x-2 items-center justify-center">
+                <h3 class="md:text-3xl sm:text-xl text-md font-ubuntu text-gray-800 dark:text-white transition-all duration-500">Or by Mail : </h3>
+                <a class="md:text-3xl sm:text-xl text-md font-ubuntu transition-all duration-500 bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent" type="mailto" href="mailto:herbemalveillante@gmail.com">herbemalveillante@gmail.com</a>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="flex flex-col justify-end items-center h-24 dark:bg-gray-800 bg-white transition-all duration-500">
+        <p class="text-xs text-gray-800 dark:text-white">© 2021 HerbeMalveillante</p>
+        <a class="mb-3 text-xs text-gray-800 dark:text-white" href="https://github.com/herbemalveillante/portfolio">Hosted with ❤️ by GitHub</a>
+    </footer>
+
 </main>
