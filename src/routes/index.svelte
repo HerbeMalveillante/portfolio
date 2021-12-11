@@ -181,7 +181,7 @@
 
     <footer class="flex flex-col justify-end items-center h-24 dark:bg-gray-800 bg-white transition-all duration-500">
         <p class="text-xs text-gray-800 dark:text-white">© 2021 HerbeMalveillante</p>
-        <a class="mb-3 text-xs text-gray-800 dark:text-white" href="https://github.com/herbemalveillante/portfolio">Hosted with ❤️ by GitHub</a>
+        <a class="mb-3 text-xs text-gray-800 dark:text-white" href="https://github.com/herbemalveillante/portfolio">Hosted with ❤️ by Vercel</a>
     </footer>
 
 </main>
