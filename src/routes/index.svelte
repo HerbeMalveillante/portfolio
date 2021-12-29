@@ -137,10 +137,13 @@
         <div class="flex flex-col bg-white dark:bg-gray-800 min-h-screen w-screen justify-center items-center md:space-y-16 space-y-10 transition-all duration-500">
             <h2 class="md:text-9xl text-6xl font-black font-ubuntu bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent p-2">Projects</h2>
             <div class="grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 p-5 w-full">
-                <Project name="Neon Background" background="https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur vitae voluptates quaerat dolorum explicabo reprehenderit aliquid aliquam nihil id perspiciatis fugit, est soluta aspernatur facere placeat aperiam similique quam recusandae.</Project>
-                <Project name="3D Village" background="https://media.sketchfab.com/models/7c9b7638b74e4708869f048055c10e0f/thumbnails/92e33f5442704ffd886e137f20eb87f9/c22f2c6f552b4c9987e8fb4d9b6ccf36.jpeg">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam nam quam ab nobis alias non mollitia hic sit, cum dolore id culpa explicabo? Provident vel rem facere optio voluptatibus sed?</Project>
-                <Project name="Profile" background="/pfp.jpg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia nisi quaerat nam voluptate saepe dolor cupiditate voluptas. Impedit, cupiditate magni! Repudiandae, dolor? Id rem exercitationem amet quidem totam magni sunt.</Project>
-                <Project>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus voluptatum facere quisquam libero quas mollitia qui. Obcaecati nulla nostrum eligendi fugit adipisci, iste ut asperiores placeat, velit dicta necessitatibus magni.</Project>
+                <!-- lorem30 for realistic text size. Larger may clip. Smaller may seem empty. -->
+                <Project link="https://github.com/herbemalveillante/portfolio" name="Portfolio" background="/pfp.jpg">Creation of my portfolio using Svelte and Tailwind.</Project>
+                <Project name="PokeBOT" background="" link="https://www.youtube.com/channel/UCGogCYmJUnrGw65rgYbxsgg">A Discord bot made for the youtuber and streamer <a class="text-blue-400 underline" href="https://google.com/">PokeDraco</a>, allowing her to manage and moderate her Discord server, as well as posting video and stream notifications.</Project>
+                <Project name="FlappyBird AI" link="https://youtu.be/00ODtHO91do">An experimental artificial intelligence made using the NEAT algorithm, allowing an agent to play the game Flappy Bird perfectly. It's made with Python and one of my first AI projects.</Project>
+                <Project name="HighSky Website" link="https://discord.gg/DZgSMR9cWb">The official website for the Minecraft server HighSky.</Project>
+                <Project name="Discord-ui" link="https://discord-ui-herbemalveillante.vercel.app">A reproduction of Discord's UI using Svelte and TailwindCSS. This project has been made to learn how both frameworks are working : it's one of my first frontend projects. It may display badly on some monitors.</Project>
+                <Project name="MMOBOT" background="" link="https://github.com/herbemalveillante/MMOBOT-V3">A complete and versatile Discord Bot that allow the users to play a MMORPG game all within Discord. The project is no longer actively supported.</Project>
             </div>
         </div>
     </div>
