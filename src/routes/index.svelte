@@ -139,9 +139,9 @@
             <div class="grid xl:grid-cols-3 lg:grid-cols-2 grid-cols-1 p-5 w-full">
                 <!-- lorem30 for realistic text size. Larger may clip. Smaller may seem empty. -->
                 <Project link="https://github.com/herbemalveillante/portfolio" name="Portfolio" background="/pfp.jpg">Creation of my portfolio using Svelte and Tailwind.</Project>
-                <Project name="PokeBOT" background="" link="https://www.youtube.com/channel/UCGogCYmJUnrGw65rgYbxsgg">A Discord bot made for the youtuber and streamer <a class="text-blue-400 underline" href="https://google.com/">PokeDraco</a>, allowing her to manage and moderate her Discord server, as well as posting video and stream notifications.</Project>
+                <Project name="PokeBOT" background="" link="https://discord.gg/pokedraco">A Discord bot made for the youtuber and streamer <a class="text-blue-400 underline" href="https://google.com/">PokeDraco</a>, allowing her to manage and moderate her Discord server, as well as posting video and stream notifications.</Project>
                 <Project name="FlappyBird AI" link="https://youtu.be/00ODtHO91do">An experimental artificial intelligence made using the NEAT algorithm, allowing an agent to play the game Flappy Bird perfectly. It's made with Python and one of my first AI projects.</Project>
-                <Project name="HighSky Website" link="https://discord.gg/DZgSMR9cWb">The official website for the Minecraft server HighSky.</Project>
+                <Project name="HighSky Website" link="https://high-sky-website.vercel.app">The official website for the Minecraft server HighSky.</Project>
                 <Project name="Discord-ui" link="https://discord-ui-herbemalveillante.vercel.app">A reproduction of Discord's UI using Svelte and TailwindCSS. This project has been made to learn how both frameworks are working : it's one of my first frontend projects. It may display badly on some monitors.</Project>
                 <Project name="MMOBOT" background="" link="https://github.com/herbemalveillante/MMOBOT-V3">A complete and versatile Discord Bot that allow the users to play a MMORPG game all within Discord. The project is no longer actively supported.</Project>
             </div>
