@@ -32,7 +32,7 @@
         <h2 class="text-white font-ubuntu text-xl w-3/4 text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, facilis! Recusandae harum, labore ipsa reiciendis dolor autem dignissimos tempore doloribus.</h2>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mx-6 text-white font-ubuntu">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mx-6 text-white font-ubuntu pb-6">
         {#each collection as item}
             <div on:click={() => openInNewTab(item.link)} class="flex group flex-col items-center relative border-2 border-white p-3 rounded-md w-full space-y-2">
                 <div>
